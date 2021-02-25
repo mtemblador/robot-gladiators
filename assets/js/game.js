@@ -1,4 +1,4 @@
-// var playerName = 'Clank McKrank';
+
 var playerName = window.prompt("What is your robot's name?");
 var playerHealth = 100;
 var playerAttack = 10;
@@ -16,7 +16,7 @@ console.log(enemyNames);
 // fight function
 var fight = function(enemyNames) {
   // Alert players that they are starting the round
-  window.alert("Welcome to Robot Gladiators!");
+  //window.alert("Welcome to Robot Gladiators!");
 
   // ask player if they'd like to fight or run
   var promptFight = window.prompt('Would you like to FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
